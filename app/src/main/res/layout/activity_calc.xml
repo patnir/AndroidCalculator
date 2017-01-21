@@ -22,7 +22,7 @@
             android:background="@android:color/holo_red_light">
 
             <TextView
-                android:text="TextView"
+                android:text="0"
                 android:textSize="35dp"
                 android:gravity="right"
 
@@ -30,7 +30,7 @@
                 android:paddingTop="30dp"
                 android:layout_width="200dp"
                 android:layout_height="76dp"
-                android:id="@+id/textView"
+                android:id="@+id/txtResult"
                 android:elevation="1dp"
                 android:paddingRight="5dp" />
 
@@ -47,28 +47,28 @@
 
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button"
+                android:id="@+id/btn7"
                 android:layout_weight="1" />
 
             <Button
                 android:text="8"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button2"
+                android:id="@+id/btn8"
                 android:layout_weight="1" />
 
             <Button
                 android:text="9"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button3"
+                android:id="@+id/btn9"
                 android:layout_weight="1" />
 
             <ImageButton
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 app:srcCompat="@drawable/divide"
-                android:id="@+id/imageButton"
+                android:id="@+id/btnDivide"
                 android:layout_weight="1"
                 android:src="@drawable/divide" />
         </LinearLayout>
@@ -83,28 +83,28 @@
 
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button19"
+                android:id="@+id/btn4"
                 android:layout_weight="1" />
 
             <Button
                 android:text="5"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button20"
+                android:id="@+id/btn5"
                 android:layout_weight="1" />
 
             <Button
                 android:text="6"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button21"
+                android:id="@+id/btn6"
                 android:layout_weight="1" />
 
             <ImageButton
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 app:srcCompat="@drawable/multiply"
-                android:id="@+id/imageButton8"
+                android:id="@+id/btnMultiply"
                 android:layout_weight="1"
                 android:src="@drawable/multiply" />
         </LinearLayout>
@@ -119,28 +119,28 @@
 
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button24"
+                android:id="@+id/btn1"
                 android:layout_weight="1" />
 
             <Button
                 android:text="2"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button25"
+                android:id="@+id/btn2"
                 android:layout_weight="1" />
 
             <Button
                 android:text="3"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:id="@+id/button26"
+                android:id="@+id/btn3"
                 android:layout_weight="1" />
 
             <ImageButton
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 app:srcCompat="@drawable/subtract"
-                android:id="@+id/imageButton9"
+                android:id="@+id/btnSubtract"
                 android:layout_weight="1"
                 android:src="@drawable/subtract" />
         </LinearLayout>
@@ -156,8 +156,8 @@
                 android:layout_width="180dp">
 
                 <Button
-                    android:text="Calculate"
-                    android:id="@+id/button30"
+                    android:text="Clear"
+                    android:id="@+id/btnClear"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent" />
 
@@ -166,14 +166,14 @@
             <Button
                 android:text="0"
                 android:layout_height="90dp"
-                android:id="@+id/button29"
+                android:id="@+id/btn0"
                 android:layout_width="90dp" />
 
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
                 app:srcCompat="@drawable/add"
-                android:id="@+id/imageButton10"
+                android:id="@+id/btnAdd"
                 android:src="@drawable/add" />
         </LinearLayout>
 
@@ -186,7 +186,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/equal"
-        android:id="@+id/imageButton11"
+        android:id="@+id/btnCalculate"
         android:background="#00000000"
         android:src="@drawable/equal" />
 </RelativeLayout>
